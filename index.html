@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="common.blocks/wrapper/wrapper.css">
+  <link rel="stylesheet" href="common.blocks/secondary-side/secondary-side.css">
+  <link rel="stylesheet" href="common.blocks/secondary-side/__nav/secondary-side__nav.css">
+  <link rel="stylesheet" href="common.blocks/nav/nav.css">
+  <link rel="stylesheet" href="common.blocks/nav/__title/nav__title.css">
+  <link rel="stylesheet" href="common.blocks/nav/__item/nav__item.css">
+  <link rel="stylesheet" href="common.blocks/nav/__item/_green/nav__item_green.css">
+  <link rel="stylesheet" href="common.blocks/nav/__item/_red/nav__item_red.css">
+  <link rel="stylesheet" href="common.blocks/main-side/main-side.css">
+  <link rel="stylesheet" href="common.blocks/header/header.css">
+  <link rel="stylesheet" href="common.blocks/header/__text/header__text.css">
+  <link rel="stylesheet" href="common.blocks/content/content.css">
+  <link rel="stylesheet" href="common.blocks/content/__block/content__block.css ">
+  <link rel="stylesheet" href="common.blocks/block/block.css">
+  <link rel="stylesheet" href="common.blocks/block/__text/block__text.css">
+  <link rel="stylesheet" href="common.blocks/footer/footer.css">
+  <link rel="stylesheet" href="common.blocks/footer/__text/footer__text.css">
+  <title>BEM</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <aside class="secondary-side">
+      <nav class="nav secondary-side__nav">
+        <p class="nav__title">Menu</p>
+        <a href="#bl1" class="nav__item nav__item_green">First Block</a>
+        <!-- /.nav__item -->
+        <a href="#bl3" class="nav__item nav__item_green">Third Block</a>
+        <!-- /.nav__item -->
+        <a href="#bl6" class="nav__item nav__item_red">Sixth Block</a>
+        <!-- /.nav__item -->
+      </nav>
+      <!-- /.nav secondary-side__nav -->
+    </aside>
+    <!-- /.secondary-side -->
+    <main class="main-side">
+      <header class="header">
+        <h2 class="header__text">Header</h2>
+      </header>
+      <!-- /.header -->
+      <div class="content">
+        <div class="content__block block" id="bl1">
+          <p class="block__text">Block 1</p>
+        </div>
+        <!-- /.block -->
+        <div class="content__block block">
+          <p class="block__text">Block 2</p>
+        </div>
+        <!-- /.block -->
+        <div class="content__block block" id="bl3">
+          <p class="block__text">Block 3</p>
+        </div>
+        <!-- /.block -->
+        <div class="content__block block">
+          <p class="block__text">Block 4</p>
+        </div>
+        <!-- /.block -->
+        <div class="content__block block">
+          <p class="block__text">Block 5</p>
+        </div>
+        <!-- /.block -->
+        <div class="content__block block" id="bl6">
+          <p class="block__text">Block 6</p>
+        </div>
+        <!-- /.block -->
+      </div>
+      <!-- /.content -->
+    </main>
+    <!-- /.main-side -->
+  </div>
+  <!-- /.wrapper -->
+  <footer class="footer">
+    <h2 class="footer__text">Footer</h2>
+  </footer>
+  <!-- /.footer -->
+</body>
+
+</html>

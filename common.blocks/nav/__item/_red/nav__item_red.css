@@ -1,0 +1,7 @@
+.nav__item_red {
+  background-color: rgb(224, 110, 110);
+}
+
+.nav__item_red:hover {
+  background-color: rgb(253, 122, 122)
+}

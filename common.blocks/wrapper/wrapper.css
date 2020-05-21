@@ -1,0 +1,7 @@
+.wrapper {
+  display: flex;
+  width: 100%;
+  font-family: sans-serif;
+  min-height: 92vh;
+  height: 100%;
+}
